@@ -1,6 +1,6 @@
 #What is codeEasy ?
    codeEasy是一个基于Gulp的前端自动化构建工具，它能够帮助前端开发人员更快的编辑代码，通过gulp的监视功能，能够实时监控文件的变化并进行更新。
-   目前codeEasy支持**html压缩，css压缩，sass,精灵图，js压缩**，后续将添加更多新功能，敬请期待...
+   目前codeEasy支持**html压缩，css压缩，sass，精灵图，js压缩**，后续将添加更多新功能，敬请期待...
 #How to use codeEasy ?
 
    首先，你需要安装[Node.Js](https://nodejs.org/en/download/),安装成功后，你通过git来clone本项目了。
