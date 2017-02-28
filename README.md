@@ -4,7 +4,8 @@ codeEasy是一个基于Gulp的前端自动化构建工具，它能够帮助前�
 
 ##准备工作
 
-首先你需要在本机安装node.js：https://nodejs.org/en/download/
+首先你需要在本机安装node.js：https://nodejs.org/en/download/  
+
 安装成功后，你可以去github克隆本项目。项目clone完毕后，在项目根目录打开CMD，然后我们将npm转换成淘宝镜像，输入以下命令 
 
 ``npm install -g cnpm --registry=https://registry.npm.taobao.org ``
