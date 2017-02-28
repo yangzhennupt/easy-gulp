@@ -1,10 +1,16 @@
-html{
- height:800px;
- width:800px;
- background:red;
- body{
-  font-family:"微软雅黑";
-  border-radius:5px;
-  display: flex;
- }
+html {
+    width : 800px;
+    height : 800px;
+
+    background : #e2ddc7;
+    body {
+        font-family : '微软雅黑';
+
+        display : flex;
+
+        border-radius : 5px;
+        i{
+        	display: inline-block;
+        }
+    }
 }
