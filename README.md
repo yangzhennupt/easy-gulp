@@ -18,15 +18,14 @@ codeEasy是一个基于Gulp的前端自动化构建工具，它能够帮助前�
 
 nginx下载地址  http://nginx.org/en/download.html
 
-下载好后，解压到磁盘中，打开/nginx/conf/nginx.conf，进行下面的修改
+下载好后，解压到磁盘中，打开/nginx/conf/nginx.conf，进行下面的修改nginx配置
  location / {
             root   D:\codeEasy\build;       //这里项目填build目录 
             index  index.html index.htm;
         }
-
-nginx配置
 修改完毕后，双击nginx.exe 你会发现界面一闪而过，然后打开浏览器，输入localhost/demo.html，如果看到Hello,codeEasy，恭喜你， 配置成功啦。
-一些注意点：
+
+##一些注意点：
 
 1.目录结构：项目代码放在src下面，html放在view里面，图标放在images里面，支持多级目录，注意引用时应该写build的路径，放入工作项目中只需要把build目录里面的代码放进去即可。
 
