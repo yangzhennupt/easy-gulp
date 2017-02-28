@@ -24,7 +24,8 @@ location / {
             root   D:\codeEasy\build;              
             //这里项目填build目录              
             index  index.html index.htm;                         
-  }
+  }  
+  
 修改完毕后，双击nginx.exe 你会发现界面一闪而过，然后打开浏览器，输入localhost/demo.html，如果看到Hello,codeEasy，恭喜你， 配置成功啦。
 
 ##一些注意点：
