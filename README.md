@@ -1,8 +1,8 @@
-#什么是codeEasy?
+# 什么是codeEasy? #
 
 codeEasy是一个基于Gulp的前端自动化构建工具，它能够帮助前端开发人员更快的编辑代码，通过gulp的监视功能，能够实时监控文件的变化并进行更新。目前codeEasy支持html压缩，css压缩，sass，自动添加厂商前缀、精灵图，js压缩，后续将添加更多新功能，敬请期待...
 
-##准备工作
+## 准备工作 ##
 
 首先你需要在本机安装node.js：https://nodejs.org/en/download/  
 
@@ -12,7 +12,7 @@ codeEasy是一个基于Gulp的前端自动化构建工具，它能够帮助前�
 
 以后用cnpm 代替npm命令即可。
 
-##正式开始
+## 正式开始 ##
 
 在项目根目录打开cmd，输入``cnpm install``   即可自动安装本项目的依赖。
 
@@ -30,7 +30,7 @@ location / {
   
 修改完毕后，双击nginx.exe 你会发现界面一闪而过，然后打开浏览器，输入localhost/demo.html，如果看到Hello,codeEasy，恭喜你， 配置成功啦。
 
-##一些注意点：
+## 一些注意点： ##
 
 1.目录结构：项目代码放在src下面，html放在view里面，图标放在images里面，支持多级目录，注意引用时应该写build的路径，放入工作项目中只需要把build目录里面的代码放进去即可。
 
